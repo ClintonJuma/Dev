@@ -1,0 +1,77 @@
+.hero{
+    min-height:90vh;
+}
+
+.hero h1{
+    font-size:4rem;
+    line-height:1.2;
+}
+
+.hero h2{
+    color:var(--primary);
+    margin:20px 0;
+    font-weight:600;
+}
+
+.hero p{
+    font-size:1.1rem;
+    max-width:550px;
+}
+
+.hero-btn{
+    border-radius:30px;
+    padding:12px 28px;
+    transition:.3s;
+}
+
+.hero-btn:hover{
+    transform:translateY(-3px);
+}
+
+/* Download CV button */
+.btn-outline-light{
+    color:white;
+    border:2px solid white;
+}
+
+.btn-outline-light:hover{
+    background:var(--primary);
+    border-color:var(--primary);
+    color:white;
+}
+
+.hero img{
+    border-radius:50%;
+    border:5px solid var(--primary);
+    box-shadow:0 15px 40px rgba(59,130,246,.3);
+    margin:auto;
+}
+.hero-name{
+    color: var(--text) !important;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.hero-name span{
+    color: var(--primary);
+}
+
+.hero-greeting{
+    color: var(--primary);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-top: 120px;
+}
+
+.hero .col-md-6{
+    padding: 30px;
+}
+
+.hero-title{
+    color:#60a5fa;
+    font-size:1.5rem;
+    font-weight:600;
+    line-height:1.5;
+}

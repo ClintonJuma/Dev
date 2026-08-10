@@ -1,0 +1,103 @@
+/* ===========================
+   TABLETS
+=========================== */
+
+@media (max-width:992px){
+
+.hero{
+    text-align:center;
+}
+
+.hero img{
+    width:250px;
+    margin-top:40px;
+}
+
+.hero p{
+    margin:auto;
+}
+
+.project-buttons{
+    flex-direction:column;
+}
+
+.contact-info{
+    grid-template-columns:1fr;
+}
+
+}
+
+/* ===========================
+   PHONES
+=========================== */
+
+@media (max-width:768px){
+
+.hero-name{
+    font-size:2.8rem;
+}
+
+.section-title{
+    font-size:2rem;
+}
+
+.hero h2{
+    font-size:1.3rem;
+}
+
+.hero-btn{
+    width:100%;
+    margin-bottom:15px;
+}
+
+.skill-card,
+.project-card,
+.education-card,
+.contact-card{
+    margin-bottom:20px;
+}
+
+.footer{
+    text-align:center;
+}
+
+/* Contact fixes */
+
+.contact-item{
+    padding:15px;
+}
+
+.contact-item h5{
+    font-size:1rem;
+}
+
+.contact-item p{
+    font-size:.9rem;
+}
+
+}
+
+/* ===========================
+   SMALL PHONES
+=========================== */
+
+@media (max-width:576px){
+
+.hero-name{
+    font-size:2.3rem;
+}
+
+.section-title{
+    font-size:1.8rem;
+}
+
+.hero img{
+    width:200px;
+}
+
+.container{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+}

@@ -1,0 +1,37 @@
+.section-subtitle{
+    color:var(--primary);
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.section-title{
+    font-size:2.5rem;
+    margin-bottom:30px;
+}
+
+#about p{
+    color:#cbd5e1;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.facts-title{
+    margin-bottom:25px;
+}
+
+.list-group-item{
+    background:var(--card-color) !important;
+    color:white !important;
+    border:1px solid var(--border) !important;
+    margin-bottom:12px;
+    border-radius:12px !important;
+    padding:18px;
+    transition:.3s;
+}
+
+.list-group-item:hover{
+    transform:translateX(8px);
+    border-color:var(--primary) !important;
+}

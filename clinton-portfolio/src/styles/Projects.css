@@ -1,0 +1,125 @@
+.project-card{
+    background: var(--card-color);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: all .35s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+    border-color: var(--primary);
+    box-shadow: 0 20px 45px rgba(59,130,246,.18);
+}
+
+
+/* ---------- IMAGE ---------- */
+
+.project-image{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    transition:transform .5s ease;
+}
+
+.project-card:hover .project-image{
+    transform:scale(1.05);
+}
+
+
+/* ---------- CONTENT ---------- */
+
+.project-content{
+    padding:25px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.project-content h4{
+    color:#fff;
+    margin-bottom:10px;
+    font-size:1.35rem;
+    font-weight:600;
+}
+
+.project-category{
+    color:var(--primary);
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.project-description{
+    color:#cbd5e1;
+    line-height:1.8;
+    flex-grow:1;
+}
+
+
+/* ---------- TECHNOLOGIES ---------- */
+
+.project-tech{
+    margin:20px 0;
+}
+
+.project-chip{
+    display:inline-block;
+    padding:7px 14px;
+    margin:4px;
+    border-radius:30px;
+    background:rgba(59,130,246,.15);
+    color:#60a5fa;
+    border:1px solid rgba(59,130,246,.35);
+    font-size:.8rem;
+    font-weight:500;
+    transition:.3s ease;
+}
+
+.project-chip:hover{
+    background:var(--primary);
+    color:white;
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+.project-buttons{
+    display:flex;
+    gap:12px;
+    margin-top:auto;
+}
+
+.project-buttons .btn{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+    transition:.3s ease;
+}
+
+.project-buttons .btn:hover{
+    transform:translateY(-2px);
+}
+
+.button-icon{
+    font-size:.95rem;
+}
+
+
+/* ---------- RESPONSIVE ---------- */
+
+@media(max-width:768px){
+
+    .project-image{
+        height:200px;
+    }
+
+    .project-content{
+        padding:20px;
+    }
+
+}

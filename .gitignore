@@ -1,0 +1,39 @@
+# =========================
+# React / Node
+# =========================
+
+clinton-portfolio/node_modules/
+clinton-portfolio/dist/
+clinton-portfolio/.env
+clinton-portfolio/.env.*
+
+# =========================
+# Django / Python
+# =========================
+
+portfolio-backend/venv/
+portfolio-backend/.venv/
+portfolio-backend/.env
+portfolio-backend/.env.*
+
+portfolio-backend/__pycache__/
+portfolio-backend/**/*.py[cod]
+
+portfolio-backend/db.sqlite3
+portfolio-backend/*.log
+
+portfolio-backend/media/
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
