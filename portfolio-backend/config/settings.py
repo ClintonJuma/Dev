@@ -138,6 +138,7 @@ MAILERS = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://dev-pied-eta.vercel.app",
 ]
 
 MEDIA_URL = "/media/"
