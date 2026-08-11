@@ -16,7 +16,7 @@ function Projects() {
   useEffect(() => {
 
     axios
-      .get("http://127.0.0.1:8000/api/projects/")
+      .get("axios.get(https://clinton-portfolio-backend.onrender.com/api/projects/")
       .then((response) => {
 
         console.log(JSON.stringify(response.data, null, 2));

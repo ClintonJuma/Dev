@@ -36,7 +36,7 @@ function Contacts() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/api/projects/contact/",
+        "https://clinton-portfolio-backend.onrender.com/api/projects/contact/",
         formData
       );
 

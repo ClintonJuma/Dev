@@ -20,7 +20,7 @@ function Education() {
 
     // Fetch education / degrees
     axios
-      .get("http://127.0.0.1:8000/api/projects/education/")
+      .get("https://clinton-portfolio-backend.onrender.com/api/projects/education/")
       .then((response) => {
 
         console.log("Education:", response.data);
@@ -37,7 +37,7 @@ function Education() {
 
     // Fetch certifications
     axios
-      .get("http://127.0.0.1:8000/api/projects/certifications/")
+      .get("https://clinton-portfolio-backend.onrender.com/api/projects/certifications/")
       .then((response) => {
 
         console.log("Certifications:", response.data);
