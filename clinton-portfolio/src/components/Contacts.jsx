@@ -9,7 +9,7 @@ import {
   FaMapMarkerAlt,
   FaGithub,
   FaLinkedin
-} from "../icons/Icons";
+} from "../icons/icons";
 
 function Contacts() {
 

@@ -4,7 +4,7 @@ import {
   FaServer,
   FaTools,
   FaDatabase
-} from "../icons/Icons";
+} from "../icons/icons";
 function Skills() {
   return (
     <section id="skills" className="container py-5" data-aos="zoom-in">

@@ -5,7 +5,7 @@ import "../styles/Projects.css";
 import {
   FaGithub,
   FaExternalLinkAlt
-} from "../icons/Icons";
+} from "../icons/icons";
 
 
 function Projects() {

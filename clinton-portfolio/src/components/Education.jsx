@@ -7,7 +7,7 @@ import {
   FaGraduationCap,
   FaCertificate,
   FaExternalLinkAlt
-} from "../icons/Icons";
+} from "../icons/icons";
 
 
 function Education() {
