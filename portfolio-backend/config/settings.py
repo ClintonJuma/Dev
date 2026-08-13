@@ -161,6 +161,7 @@ CLOUDINARY_STORAGE = {
     "API_KEY": os.getenv("CLOUDINARY_API_KEY"),
     "API_SECRET": os.getenv("CLOUDINARY_API_SECRET"),
 }
+print("RENDER CLOUD NAME:", repr(CLOUDINARY_STORAGE["CLOUD_NAME"]))
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
