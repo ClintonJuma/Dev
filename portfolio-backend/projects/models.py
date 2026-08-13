@@ -1,3 +1,4 @@
+from cloudinary_storage.storage import RawMediaCloudinaryStorage
 from django.db import models
 
 # Create your models here.
@@ -32,6 +33,7 @@ class Certification(models.Model):
     title = models.CharField(max_length=200)
     issuer = models.CharField(max_length=200)
     certificate = models.FileField(
+        storage=RawMediaCloudinaryStorage(),
         upload_to="certificates/",
         blank=True,
         null=True
