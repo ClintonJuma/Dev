@@ -13,3 +13,4 @@ tzdata==2026.3
 cloudinary
 django-cloudinary-storage
 psycopg[binary]
+whitenoise
