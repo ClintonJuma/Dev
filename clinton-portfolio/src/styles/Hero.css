@@ -22,6 +22,8 @@
     border-radius:30px;
     padding:12px 28px;
     transition:.3s;
+    margin-right:10px;
+    margin-bottom:10px
 }
 
 .hero-btn:hover{

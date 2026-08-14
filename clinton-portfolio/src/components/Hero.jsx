@@ -40,7 +40,7 @@ function Hero() {
               </a>
 
               <a
-                href="/Recommendation.pdf.pdf"
+                href="/Recommendation.pdf"
                 download
                 className="btn btn-primary hero-btn"
               >
