@@ -146,7 +146,7 @@ MAILERS = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://dev-pied-eta.vercel.app",
+    "https://clinton-juma.vercel.app",
 ]
 CSRF_TRUSTED_ORIGINS = [
     "https://clinton-portfolio-backend.onrender.com",
