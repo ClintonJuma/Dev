@@ -19,14 +19,8 @@ function Hero() {
             </h1>
 
             <h2>
-              ICT Support | Data Scientist | Full Stack Developer
+              IT Support | Data Scientist | Full Stack Developer
             </h2>
-
-            <p>
-              I build modern web applications, provide ICT support,
-              analyze data, and utilize machine learning to develop
-              practical solutions by merging technologies.
-            </p>
 
             <div className="hero-buttons">
 
@@ -43,6 +37,14 @@ function Hero() {
                 className="btn btn-primary hero-btn"
               >
                 📄 Download CV
+              </a>
+
+              <a
+                href="/Recommendation.pdf.pdf"
+                download
+                className="btn btn-primary hero-btn"
+              >
+                📄 Download testimonial
               </a>
 
             </div>

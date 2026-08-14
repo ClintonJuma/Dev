@@ -19,16 +19,16 @@ function About() {
           </h2>
 
           <p>
-            I am an ICT professional with a strong interest in software engineering,
-            web development, data analysis, and building practical digital solutions
-            that solve real-world problems.
+            I am an Information Technology professional, with hands on experince in IT supprot,
+            and technology driven pronblem solving , with additional skills in data science 
+            and web development.
 
           </p>
 
           <p>
-            My goal is to combine technology, data, and modern software development
-            to create reliable, user-friendly applications while continuously
-            improving my technical and problem-solving skills.
+            My goal is to leverage my technical and analytical skills 
+            to solve real-world problems, contribute to impactful projects, 
+            and continuously grow as a technology professional.
           
           </p>
 
@@ -41,7 +41,7 @@ function About() {
           <ul className="list-group">
 
             <li className="list-group-item">
-              🎓 Bachelor of Information Technology
+              🎓 Bachelor of Information Science(Informatics Specialization)
             </li>
 
             <li className="list-group-item">
@@ -49,7 +49,7 @@ function About() {
             </li>
 
             <li className="list-group-item">
-              💻 Learning Software Engineering
+              💻 Open to IT opportunities
             </li>
 
             <li className="list-group-item">

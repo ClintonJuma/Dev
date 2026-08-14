@@ -23,16 +23,16 @@ function Skills() {
         <div className="col-md-6 col-lg-3 mb-4"
           data-aos="fade-up" data-aos-delay="100">
           <div className="skill-card">
-            <h3><FaLaptopCode className="skill-icon" /> Frontend</h3>
+            <h3><FaLaptopCode className="skill-icon" />IT Support</h3>
 
             <div className="skills-container">
               {[
-                "React",
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "GitHub"
+                "Technical Troubleshooting",
+                "Software configuration",
+                "Hardware maintenance",
+                "Operating Systems",
+                "Network Maintenance",
+                "Microsoft Office"
               ].map((skill) => (
                 <span key={skill} className="skill-chip">
                   {skill}
@@ -47,14 +47,19 @@ function Skills() {
         data-aos="fade-up" data-aos-delay="200">
           <div className="skill-card">
             <h3>
-              <FaServer className="skill-icon" /> Backend
+              <FaServer className="skill-icon" /> Data Analysis
             </h3>
 
             <div className="skills-container">
               {[
-                "Django",
-                "REST APIs",
-                "Databases"
+                "Python for DA",
+                "Exploratory Data Analysis",
+                "SQL",
+                "Excel &Google Sheets",
+                "Tableau",
+                "Data Cleaning",
+                "Data Visualization",
+                "Statistical Analysis",
               ].map((skill) => (
                 <span key={skill} className="skill-chip">
                   {skill}
@@ -69,19 +74,17 @@ function Skills() {
         data-aos="fade-up" data-aos-delay="200">
           <div className="skill-card">
             <h3>
-              <FaTools className="skill-icon" /> ICT & Tools
+              <FaTools className="skill-icon" /> Machine Learning &AI
             </h3>
 
             <div className="skills-container">
               {[
-                "ICT Technical Support",
-                "Operating Systems",
-                "Git",
-                "GitHub",
-                "Microsoft 365",
-                "Networking",
-                "Hardware",
-            
+                "ML Fundamentals",
+                "Feature Engineering",
+                "Predictive Modelling",
+                "Model Evaluation",
+                "Deep Learning Fundamentals",
+                "Training Small Language Models",
               ].map((skill) => (
                 <span key={skill} className="skill-chip">
                   {skill}
@@ -95,15 +98,17 @@ function Skills() {
         <div className="col-md-6 col-lg-3 mb-4"
         data-aos="fade-up" data-aos-delay="400">
           <div className="skill-card">
-            <h3><FaDatabase className="skill-icon" /> Data & AI</h3>
+            <h3><FaDatabase className="skill-icon" /> Web Development</h3>
 
             <div className="skills-container">
               {[
-                "Python",
-                "Pandas",
-                "NumPy",
-                "Machine Learning",
-                "Tableau"
+                "HTML, CSS,JavaScript",
+                "Bootstrap",
+                "React",
+                "Django",
+                "Rest API",
+                "Git, Github",
+                "Deploment",
               ].map((skill) => (
                 <span key={skill} className="skill-chip">
                   {skill}
