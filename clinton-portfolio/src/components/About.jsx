@@ -19,8 +19,8 @@ function About() {
           </h2>
 
           <p>
-            I am an Information Technology professional, with hands on experince in IT supprot,
-            and technology driven pronblem solving , with additional skills in data science 
+            I am an Information Technology professional, with hands on experience in IT support,
+            and technology driven problem solving , with additional skills in data science 
             and web development.
 
           </p>
